@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="lesson2-servlet:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/lesson2_servlet_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="lesson2-servlet/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="lesson2-servlet" />
+          <element id="library" level="application" name="bootstrap" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.2.18" />
+          <element id="library" level="project" name="Maven: org.checkerframework:checker-qual:3.5.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
